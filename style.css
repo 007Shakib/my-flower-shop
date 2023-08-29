@@ -20,6 +20,7 @@ header {
 .heading {
     width: 708;
     height: 288;
+    padding-top: 100px;
 }
 
 
@@ -33,12 +34,11 @@ header {
     padding-bottom: 70px;
 }
 
-
 .heading-image {
     width: 535px;
     height: 700px;
     flex-shrink: 0;
-    top: 40px;
+    top: 50px;
 }
 
 
@@ -51,6 +51,8 @@ header {
     font-weight: 700;
     padding: 15px 35px;
 }
+
+
 
 
 .section-title {
@@ -114,6 +116,76 @@ header {
     display: block;
     padding-top: 125px;
     text-align: center;
+    padding-bottom: 100px;
 
 
+}
+
+.span-color {
+    color: #E55473;
+}
+
+.section-background {
+    border-radius: 8px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+
+.last-section {
+    padding-top: 200px;
+    background-image: url(images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-position: bottom, center;
+}
+
+#para-position {
+    padding-bottom: 50px;
+}
+
+#email-move {
+    padding-left: 370px;
+    padding-bottom: 100px;
+}
+
+#shaping {
+    width: 600px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border-color: whitesmoke;
+}
+
+footer {
+    background-color: #181818;
+}
+
+.span-color2 {
+    color: white;
+}
+
+#changing-color {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#footer-move {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+#small-tag-color {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#pading-adjust {
+    padding-top: 120px;
 }
